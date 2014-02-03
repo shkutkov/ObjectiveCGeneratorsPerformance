@@ -31,7 +31,7 @@
 
 - (NSString *)name
 {
-    return [NSString stringWithFormat:@"Dummy iteration from %d to %d", self.from, self.count];
+    return [NSString stringWithFormat:@"Dummy iteration from %ld to %ld", (long)self.from, (long)self.count];
 }
 
 - (ExecutionBlock)noGeneratorBlock

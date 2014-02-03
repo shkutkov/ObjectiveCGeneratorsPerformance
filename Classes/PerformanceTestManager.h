@@ -12,7 +12,7 @@
 typedef NS_ENUM(NSInteger, PerformanceTestType) {
     kDummyIterationPerformanceTestType,
     kIterationWithLoggingPerformanceTestType,
-    kPrimeNumbersPerformanceTestType
+    kPrimeNumbersWithLoggingPerformanceTestType
 };
 
 @interface PerformanceTestManager : NSObject

@@ -9,7 +9,7 @@
 #import "PerformanceTestManager.h"
 #import "DummyIterationPerformanceTest.h"
 #import "IterationWithLoggingPerformanceTest.h"
-#import "PrimeNumbersPerformanceTest.h"
+#import "PrimeNumbersWithLoggingPerformanceTest.h"
 
 static NSInteger const kDummyIterationFrom = 1;
 static NSInteger const kDummyIterationCount = 100000;
@@ -17,7 +17,7 @@ static NSInteger const kDummyIterationCount = 100000;
 static NSInteger const kIterationWithLogFrom = 1;
 static NSInteger const kIterationWithLogCount = 1000;
 
-static NSInteger const kPrimeNumbersFrom = 1;
+static NSInteger const kPrimeNumbersFrom = 100000;
 static NSInteger const kPrimeNumbersCount = 1000;
 
 
@@ -49,9 +49,9 @@ static NSInteger const kPrimeNumbersCount = 1000;
                    @(kIterationWithLoggingPerformanceTestType):
                        [[IterationWithLoggingPerformanceTest alloc] initWithIterationsCount:kIterationWithLogCount
                                                                                        from:kIterationWithLogFrom],
-                   @(kPrimeNumbersPerformanceTestType):
-                       [[PrimeNumbersPerformanceTest alloc] initWithIterationsCount:kPrimeNumbersCount
-                                                                               from:kPrimeNumbersFrom]
+                   @(kPrimeNumbersWithLoggingPerformanceTestType):
+                       [[PrimeNumbersWithLoggingPerformanceTest alloc] initWithIterationsCount:kPrimeNumbersCount
+                                                                                      from:kPrimeNumbersFrom]
        };
     }
     return self;

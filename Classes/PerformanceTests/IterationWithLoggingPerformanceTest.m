@@ -32,7 +32,7 @@
 
 - (NSString *)name
 {
-    return [NSString stringWithFormat:@"Iteration with logging from %d to %d", self.from, self.count];
+    return [NSString stringWithFormat:@"Iteration with logging from %ld to %ld", (long)self.from, (long)self.count];
 }
 
 - (ExecutionBlock)noGeneratorBlock

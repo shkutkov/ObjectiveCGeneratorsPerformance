@@ -31,7 +31,7 @@
 {
     self.performanceTests = @[@(kDummyIterationPerformanceTestType),
                               @(kIterationWithLoggingPerformanceTestType),
-                              @(kPrimeNumbersPerformanceTestType)];
+                              @(kPrimeNumbersWithLoggingPerformanceTestType)];
     
     for (NSNumber *number in self.performanceTests) {
         PerformanceTestType type = [number integerValue];

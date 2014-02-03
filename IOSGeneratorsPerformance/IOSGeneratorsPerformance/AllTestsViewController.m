@@ -23,10 +23,9 @@
 {
     [super viewDidLoad];
 
-    
     self.tests = @[@(kDummyIterationPerformanceTestType),
                    @(kIterationWithLoggingPerformanceTestType),
-                   @(kPrimeNumbersPerformanceTestType)];
+                   @(kPrimeNumbersWithLoggingPerformanceTestType)];
     
 }
 

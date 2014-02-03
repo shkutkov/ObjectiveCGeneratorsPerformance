@@ -61,10 +61,10 @@
             location = "group:PerformanceTest.h">
          </FileRef>
          <FileRef
-            location = "group:PrimeNumbersPerformanceTest.h">
+            location = "group:PrimeNumbersWithLoggingPerformanceTest.h">
          </FileRef>
          <FileRef
-            location = "group:PrimeNumbersPerformanceTest.m">
+            location = "group:PrimeNumbersWithLoggingPerformanceTest.m">
          </FileRef>
       </Group>
       <FileRef

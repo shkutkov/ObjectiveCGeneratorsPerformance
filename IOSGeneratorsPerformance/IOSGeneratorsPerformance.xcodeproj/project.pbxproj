@@ -7,16 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D721A4D4189F14F500C7B55A /* PerformanceTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4BD189F14F500C7B55A /* PerformanceTestManager.m */; };
-		D721A4D5189F14F500C7B55A /* PerformanceTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4BF189F14F500C7B55A /* PerformanceTestRunner.m */; };
-		D721A4D6189F14F500C7B55A /* DummyIterationPerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4C2189F14F500C7B55A /* DummyIterationPerformanceTest.m */; };
-		D721A4D7189F14F500C7B55A /* CountFromGeneratorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4C5189F14F500C7B55A /* CountFromGeneratorManager.m */; };
-		D721A4D8189F14F500C7B55A /* MAGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4CA189F14F500C7B55A /* MAGenerator.m */; };
-		D721A4D9189F14F500C7B55A /* SMGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4CC189F14F500C7B55A /* SMGenerator.m */; };
-		D721A4DA189F14F500C7B55A /* PrimeNumbersGeneratorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4CE189F14F500C7B55A /* PrimeNumbersGeneratorManager.m */; };
-		D721A4DB189F14F500C7B55A /* IterationWithLoggingPerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4D0189F14F500C7B55A /* IterationWithLoggingPerformanceTest.m */; };
-		D721A4DC189F14F500C7B55A /* PrimeNumbersPerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A4D3189F14F500C7B55A /* PrimeNumbersPerformanceTest.m */; };
-		D721A547189FB9A900C7B55A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A546189FB9A900C7B55A /* Constants.m */; };
+		D721A56918A0114300C7B55A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A55018A0114300C7B55A /* Constants.m */; };
+		D721A56A18A0114300C7B55A /* PerformanceTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A55218A0114300C7B55A /* PerformanceTestManager.m */; };
+		D721A56B18A0114300C7B55A /* PerformanceTestRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A55418A0114300C7B55A /* PerformanceTestRunner.m */; };
+		D721A56C18A0114300C7B55A /* DummyIterationPerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A55718A0114300C7B55A /* DummyIterationPerformanceTest.m */; };
+		D721A56D18A0114300C7B55A /* CountFromGeneratorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A55A18A0114300C7B55A /* CountFromGeneratorManager.m */; };
+		D721A56E18A0114300C7B55A /* MAGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A55F18A0114300C7B55A /* MAGenerator.m */; };
+		D721A56F18A0114300C7B55A /* SMGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A56118A0114300C7B55A /* SMGenerator.m */; };
+		D721A57018A0114300C7B55A /* PrimeNumbersGeneratorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A56318A0114300C7B55A /* PrimeNumbersGeneratorManager.m */; };
+		D721A57118A0114300C7B55A /* IterationWithLoggingPerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D721A56518A0114300C7B55A /* IterationWithLoggingPerformanceTest.m */; };
 		D7A16A66189A955B00F4C7F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A16A65189A955B00F4C7F2 /* Foundation.framework */; };
 		D7A16A68189A955B00F4C7F2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A16A67189A955B00F4C7F2 /* CoreGraphics.framework */; };
 		D7A16A6A189A955C00F4C7F2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7A16A69189A955C00F4C7F2 /* UIKit.framework */; };
@@ -25,35 +24,34 @@
 		D7A16A76189A955C00F4C7F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A16A75189A955C00F4C7F2 /* AppDelegate.m */; };
 		D7A16A79189A955C00F4C7F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A16A77189A955C00F4C7F2 /* Main.storyboard */; };
 		D7A16A7E189A955C00F4C7F2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A16A7D189A955C00F4C7F2 /* Images.xcassets */; };
+		D7C0F8F118A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0F8F018A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.m */; };
 		D7F1C372189DB9C2002EA62C /* AllTestsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F1C371189DB9C2002EA62C /* AllTestsViewController.m */; };
 		D7F1C375189DBC7D002EA62C /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F1C374189DBC7D002EA62C /* TestViewController.m */; };
 		D7F1C37B189E2CD5002EA62C /* TestRunnerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7F1C37A189E2CD5002EA62C /* TestRunnerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D721A4BC189F14F500C7B55A /* PerformanceTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTestManager.h; sourceTree = "<group>"; };
-		D721A4BD189F14F500C7B55A /* PerformanceTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceTestManager.m; sourceTree = "<group>"; };
-		D721A4BE189F14F500C7B55A /* PerformanceTestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTestRunner.h; sourceTree = "<group>"; };
-		D721A4BF189F14F500C7B55A /* PerformanceTestRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceTestRunner.m; sourceTree = "<group>"; };
-		D721A4C1189F14F500C7B55A /* DummyIterationPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyIterationPerformanceTest.h; sourceTree = "<group>"; };
-		D721A4C2189F14F500C7B55A /* DummyIterationPerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyIterationPerformanceTest.m; sourceTree = "<group>"; };
-		D721A4C4189F14F500C7B55A /* CountFromGeneratorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountFromGeneratorManager.h; sourceTree = "<group>"; };
-		D721A4C5189F14F500C7B55A /* CountFromGeneratorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountFromGeneratorManager.m; sourceTree = "<group>"; };
-		D721A4C6189F14F500C7B55A /* GeneratorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorManager.h; sourceTree = "<group>"; };
-		D721A4C8189F14F500C7B55A /* EXTCoroutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTCoroutine.h; sourceTree = "<group>"; };
-		D721A4C9189F14F500C7B55A /* MAGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGenerator.h; sourceTree = "<group>"; };
-		D721A4CA189F14F500C7B55A /* MAGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGenerator.m; sourceTree = "<group>"; };
-		D721A4CB189F14F500C7B55A /* SMGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGenerator.h; sourceTree = "<group>"; };
-		D721A4CC189F14F500C7B55A /* SMGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGenerator.m; sourceTree = "<group>"; };
-		D721A4CD189F14F500C7B55A /* PrimeNumbersGeneratorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeNumbersGeneratorManager.h; sourceTree = "<group>"; };
-		D721A4CE189F14F500C7B55A /* PrimeNumbersGeneratorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeNumbersGeneratorManager.m; sourceTree = "<group>"; };
-		D721A4CF189F14F500C7B55A /* IterationWithLoggingPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IterationWithLoggingPerformanceTest.h; sourceTree = "<group>"; };
-		D721A4D0189F14F500C7B55A /* IterationWithLoggingPerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IterationWithLoggingPerformanceTest.m; sourceTree = "<group>"; };
-		D721A4D1189F14F500C7B55A /* PerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTest.h; sourceTree = "<group>"; };
-		D721A4D2189F14F500C7B55A /* PrimeNumbersPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeNumbersPerformanceTest.h; sourceTree = "<group>"; };
-		D721A4D3189F14F500C7B55A /* PrimeNumbersPerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeNumbersPerformanceTest.m; sourceTree = "<group>"; };
-		D721A545189FB9A900C7B55A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		D721A546189FB9A900C7B55A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D721A54F18A0114300C7B55A /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		D721A55018A0114300C7B55A /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		D721A55118A0114300C7B55A /* PerformanceTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTestManager.h; sourceTree = "<group>"; };
+		D721A55218A0114300C7B55A /* PerformanceTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceTestManager.m; sourceTree = "<group>"; };
+		D721A55318A0114300C7B55A /* PerformanceTestRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTestRunner.h; sourceTree = "<group>"; };
+		D721A55418A0114300C7B55A /* PerformanceTestRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PerformanceTestRunner.m; sourceTree = "<group>"; };
+		D721A55618A0114300C7B55A /* DummyIterationPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DummyIterationPerformanceTest.h; sourceTree = "<group>"; };
+		D721A55718A0114300C7B55A /* DummyIterationPerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyIterationPerformanceTest.m; sourceTree = "<group>"; };
+		D721A55918A0114300C7B55A /* CountFromGeneratorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountFromGeneratorManager.h; sourceTree = "<group>"; };
+		D721A55A18A0114300C7B55A /* CountFromGeneratorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountFromGeneratorManager.m; sourceTree = "<group>"; };
+		D721A55B18A0114300C7B55A /* GeneratorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratorManager.h; sourceTree = "<group>"; };
+		D721A55D18A0114300C7B55A /* EXTCoroutine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTCoroutine.h; sourceTree = "<group>"; };
+		D721A55E18A0114300C7B55A /* MAGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MAGenerator.h; sourceTree = "<group>"; };
+		D721A55F18A0114300C7B55A /* MAGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MAGenerator.m; sourceTree = "<group>"; };
+		D721A56018A0114300C7B55A /* SMGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMGenerator.h; sourceTree = "<group>"; };
+		D721A56118A0114300C7B55A /* SMGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMGenerator.m; sourceTree = "<group>"; };
+		D721A56218A0114300C7B55A /* PrimeNumbersGeneratorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeNumbersGeneratorManager.h; sourceTree = "<group>"; };
+		D721A56318A0114300C7B55A /* PrimeNumbersGeneratorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeNumbersGeneratorManager.m; sourceTree = "<group>"; };
+		D721A56418A0114300C7B55A /* IterationWithLoggingPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IterationWithLoggingPerformanceTest.h; sourceTree = "<group>"; };
+		D721A56518A0114300C7B55A /* IterationWithLoggingPerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IterationWithLoggingPerformanceTest.m; sourceTree = "<group>"; };
+		D721A56618A0114300C7B55A /* PerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PerformanceTest.h; sourceTree = "<group>"; };
 		D7A16A62189A955B00F4C7F2 /* IOSGeneratorsPerformance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSGeneratorsPerformance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A16A65189A955B00F4C7F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7A16A67189A955B00F4C7F2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -67,6 +65,8 @@
 		D7A16A78189A955C00F4C7F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D7A16A7D189A955C00F4C7F2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D7A16A84189A955C00F4C7F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D7C0F8EF18A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeNumbersWithLoggingPerformanceTest.h; sourceTree = "<group>"; };
+		D7C0F8F018A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeNumbersWithLoggingPerformanceTest.m; sourceTree = "<group>"; };
 		D7F1C370189DB9C2002EA62C /* AllTestsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTestsViewController.h; sourceTree = "<group>"; };
 		D7F1C371189DB9C2002EA62C /* AllTestsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTestsViewController.m; sourceTree = "<group>"; };
 		D7F1C373189DBC7D002EA62C /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
@@ -89,56 +89,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D721A4BB189F14F500C7B55A /* Classes */ = {
+		D721A54E18A0114300C7B55A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D721A4C0189F14F500C7B55A /* PerformanceTests */,
-				D721A4BC189F14F500C7B55A /* PerformanceTestManager.h */,
-				D721A4BD189F14F500C7B55A /* PerformanceTestManager.m */,
-				D721A4BE189F14F500C7B55A /* PerformanceTestRunner.h */,
-				D721A4BF189F14F500C7B55A /* PerformanceTestRunner.m */,
-				D721A545189FB9A900C7B55A /* Constants.h */,
-				D721A546189FB9A900C7B55A /* Constants.m */,
+				D721A54F18A0114300C7B55A /* Constants.h */,
+				D721A55018A0114300C7B55A /* Constants.m */,
+				D721A55118A0114300C7B55A /* PerformanceTestManager.h */,
+				D721A55218A0114300C7B55A /* PerformanceTestManager.m */,
+				D721A55318A0114300C7B55A /* PerformanceTestRunner.h */,
+				D721A55418A0114300C7B55A /* PerformanceTestRunner.m */,
+				D721A55518A0114300C7B55A /* PerformanceTests */,
 			);
-			path = Classes;
+			name = Classes;
+			path = ../../Classes;
 			sourceTree = "<group>";
 		};
-		D721A4C0189F14F500C7B55A /* PerformanceTests */ = {
+		D721A55518A0114300C7B55A /* PerformanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				D721A4C1189F14F500C7B55A /* DummyIterationPerformanceTest.h */,
-				D721A4C2189F14F500C7B55A /* DummyIterationPerformanceTest.m */,
-				D721A4C3189F14F500C7B55A /* GeneratorManagers */,
-				D721A4CF189F14F500C7B55A /* IterationWithLoggingPerformanceTest.h */,
-				D721A4D0189F14F500C7B55A /* IterationWithLoggingPerformanceTest.m */,
-				D721A4D1189F14F500C7B55A /* PerformanceTest.h */,
-				D721A4D2189F14F500C7B55A /* PrimeNumbersPerformanceTest.h */,
-				D721A4D3189F14F500C7B55A /* PrimeNumbersPerformanceTest.m */,
+				D721A55818A0114300C7B55A /* GeneratorManagers */,
+				D7C0F8EF18A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.h */,
+				D7C0F8F018A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.m */,
+				D721A55618A0114300C7B55A /* DummyIterationPerformanceTest.h */,
+				D721A55718A0114300C7B55A /* DummyIterationPerformanceTest.m */,
+				D721A56418A0114300C7B55A /* IterationWithLoggingPerformanceTest.h */,
+				D721A56518A0114300C7B55A /* IterationWithLoggingPerformanceTest.m */,
+				D721A56618A0114300C7B55A /* PerformanceTest.h */,
 			);
 			path = PerformanceTests;
 			sourceTree = "<group>";
 		};
-		D721A4C3189F14F500C7B55A /* GeneratorManagers */ = {
+		D721A55818A0114300C7B55A /* GeneratorManagers */ = {
 			isa = PBXGroup;
 			children = (
-				D721A4C4189F14F500C7B55A /* CountFromGeneratorManager.h */,
-				D721A4C5189F14F500C7B55A /* CountFromGeneratorManager.m */,
-				D721A4C6189F14F500C7B55A /* GeneratorManager.h */,
-				D721A4C7189F14F500C7B55A /* Implementations */,
-				D721A4CD189F14F500C7B55A /* PrimeNumbersGeneratorManager.h */,
-				D721A4CE189F14F500C7B55A /* PrimeNumbersGeneratorManager.m */,
+				D721A55C18A0114300C7B55A /* Implementations */,
+				D721A55918A0114300C7B55A /* CountFromGeneratorManager.h */,
+				D721A55A18A0114300C7B55A /* CountFromGeneratorManager.m */,
+				D721A55B18A0114300C7B55A /* GeneratorManager.h */,
+				D721A56218A0114300C7B55A /* PrimeNumbersGeneratorManager.h */,
+				D721A56318A0114300C7B55A /* PrimeNumbersGeneratorManager.m */,
 			);
 			path = GeneratorManagers;
 			sourceTree = "<group>";
 		};
-		D721A4C7189F14F500C7B55A /* Implementations */ = {
+		D721A55C18A0114300C7B55A /* Implementations */ = {
 			isa = PBXGroup;
 			children = (
-				D721A4C8189F14F500C7B55A /* EXTCoroutine.h */,
-				D721A4C9189F14F500C7B55A /* MAGenerator.h */,
-				D721A4CA189F14F500C7B55A /* MAGenerator.m */,
-				D721A4CB189F14F500C7B55A /* SMGenerator.h */,
-				D721A4CC189F14F500C7B55A /* SMGenerator.m */,
+				D721A55D18A0114300C7B55A /* EXTCoroutine.h */,
+				D721A55E18A0114300C7B55A /* MAGenerator.h */,
+				D721A55F18A0114300C7B55A /* MAGenerator.m */,
+				D721A56018A0114300C7B55A /* SMGenerator.h */,
+				D721A56118A0114300C7B55A /* SMGenerator.m */,
 			);
 			path = Implementations;
 			sourceTree = "<group>";
@@ -174,7 +175,7 @@
 		D7A16A6B189A955C00F4C7F2 /* IOSGeneratorsPerformance */ = {
 			isa = PBXGroup;
 			children = (
-				D721A4BB189F14F500C7B55A /* Classes */,
+				D721A54E18A0114300C7B55A /* Classes */,
 				D7F1C36C189DB986002EA62C /* ViewControllers */,
 				D7A16A74189A955C00F4C7F2 /* AppDelegate.h */,
 				D7A16A75189A955C00F4C7F2 /* AppDelegate.m */,
@@ -274,21 +275,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D721A4D4189F14F500C7B55A /* PerformanceTestManager.m in Sources */,
-				D721A4DB189F14F500C7B55A /* IterationWithLoggingPerformanceTest.m in Sources */,
 				D7F1C37B189E2CD5002EA62C /* TestRunnerViewController.m in Sources */,
+				D721A56A18A0114300C7B55A /* PerformanceTestManager.m in Sources */,
+				D721A57118A0114300C7B55A /* IterationWithLoggingPerformanceTest.m in Sources */,
 				D7A16A76189A955C00F4C7F2 /* AppDelegate.m in Sources */,
 				D7F1C375189DBC7D002EA62C /* TestViewController.m in Sources */,
-				D721A547189FB9A900C7B55A /* Constants.m in Sources */,
 				D7A16A72189A955C00F4C7F2 /* main.m in Sources */,
-				D721A4DA189F14F500C7B55A /* PrimeNumbersGeneratorManager.m in Sources */,
-				D721A4D6189F14F500C7B55A /* DummyIterationPerformanceTest.m in Sources */,
-				D721A4D5189F14F500C7B55A /* PerformanceTestRunner.m in Sources */,
+				D7C0F8F118A03F6F00376480 /* PrimeNumbersWithLoggingPerformanceTest.m in Sources */,
 				D7F1C372189DB9C2002EA62C /* AllTestsViewController.m in Sources */,
-				D721A4D7189F14F500C7B55A /* CountFromGeneratorManager.m in Sources */,
-				D721A4D8189F14F500C7B55A /* MAGenerator.m in Sources */,
-				D721A4DC189F14F500C7B55A /* PrimeNumbersPerformanceTest.m in Sources */,
-				D721A4D9189F14F500C7B55A /* SMGenerator.m in Sources */,
+				D721A57018A0114300C7B55A /* PrimeNumbersGeneratorManager.m in Sources */,
+				D721A56C18A0114300C7B55A /* DummyIterationPerformanceTest.m in Sources */,
+				D721A56B18A0114300C7B55A /* PerformanceTestRunner.m in Sources */,
+				D721A56918A0114300C7B55A /* Constants.m in Sources */,
+				D721A56D18A0114300C7B55A /* CountFromGeneratorManager.m in Sources */,
+				D721A56E18A0114300C7B55A /* MAGenerator.m in Sources */,
+				D721A56F18A0114300C7B55A /* SMGenerator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +371,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
