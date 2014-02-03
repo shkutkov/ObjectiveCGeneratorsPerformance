@@ -29,7 +29,6 @@
 
 -(void)awakeFromNib
 {
-    NSLog(@"View controller instance with view: %@", self.view);
     self.performanceTests = @[@(kDummyIterationPerformanceTestType),
                               @(kIterationWithLoggingPerformanceTestType),
                               @(kPrimeNumbersPerformanceTestType)];
@@ -111,9 +110,7 @@
          informativeTextWithFormat:message, nil];
         [alert setAlertStyle:NSInformationalAlertStyle];
         [alert runModal];
-        
     }];
 }
-
 
 @end
