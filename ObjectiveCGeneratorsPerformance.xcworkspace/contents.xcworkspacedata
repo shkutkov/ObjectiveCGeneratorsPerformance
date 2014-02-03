@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Classes"
+      name = "Classes">
+      <Group
+         location = "group:PerformanceTests"
+         name = "PerformanceTests">
+         <Group
+            location = "group:GeneratorManagers"
+            name = "GeneratorManagers">
+            <FileRef
+               location = "group:CountFromGeneratorManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:CountFromGeneratorManager.m">
+            </FileRef>
+            <FileRef
+               location = "group:GeneratorManager.h">
+            </FileRef>
+            <Group
+               location = "group:Implementations"
+               name = "Implementations">
+               <FileRef
+                  location = "group:EXTCoroutine.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MAGenerator.h">
+               </FileRef>
+               <FileRef
+                  location = "group:MAGenerator.m">
+               </FileRef>
+               <FileRef
+                  location = "group:SMGenerator.h">
+               </FileRef>
+               <FileRef
+                  location = "group:SMGenerator.m">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:PrimeNumbersGeneratorManager.h">
+            </FileRef>
+            <FileRef
+               location = "group:PrimeNumbersGeneratorManager.m">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:DummyIterationPerformanceTest.h">
+         </FileRef>
+         <FileRef
+            location = "group:DummyIterationPerformanceTest.m">
+         </FileRef>
+         <FileRef
+            location = "group:IterationWithLoggingPerformanceTest.h">
+         </FileRef>
+         <FileRef
+            location = "group:IterationWithLoggingPerformanceTest.m">
+         </FileRef>
+         <FileRef
+            location = "group:PerformanceTest.h">
+         </FileRef>
+         <FileRef
+            location = "group:PrimeNumbersPerformanceTest.h">
+         </FileRef>
+         <FileRef
+            location = "group:PrimeNumbersPerformanceTest.m">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:PerformanceTestManager.h">
+      </FileRef>
+      <FileRef
+         location = "group:PerformanceTestManager.m">
+      </FileRef>
+      <FileRef
+         location = "group:PerformanceTestRunner.h">
+      </FileRef>
+      <FileRef
+         location = "group:PerformanceTestRunner.m">
+      </FileRef>
+      <FileRef
+         location = "group:Constants.h">
+      </FileRef>
+      <FileRef
+         location = "group:Constants.m">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:IOSGeneratorsPerformance/IOSGeneratorsPerformance.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:OSXGeneratorsPerformance/OSXGeneratorsPerformance.xcodeproj">
+   </FileRef>
+</Workspace>
