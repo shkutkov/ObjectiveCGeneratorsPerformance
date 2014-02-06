@@ -16,6 +16,8 @@ The project already has 3 tests:
 It's possible easily create new tests.
 All tests can be started on iOS and OSX.
 
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/shkutkov/objectivecgeneratorsperformance/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
 ## Licence
 
 ObjectiveCGeneratorsPerformance is released under an MIT license. For the full, legal license, see the LICENSE file. Use in any and every sort of project is encouraged, as long as the terms of the license are followed (and they're easy!).
